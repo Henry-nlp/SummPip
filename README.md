@@ -10,7 +10,21 @@
 
 [target data](https://drive.google.com/file/d/1T9uE2sF3bN3a1T2KLp7mR4xK9MqqpkH1/view?usp=sharing) (for evaluation)
 
-## How to use SummPip 
+## Test SummPip on Multi-News
+
+**Step1**: place downloaded dataset in the folder `./dataset/multi_news/`.
+
+**Step2**: download the pre-trained [word2vec model](https://drive.google.com/file/d/1DVaktsGKbH8oPy28rrHuVgL_QVDsbfSA/view?usp=sharing) and place it in the folder `./word_vec/multi_news`. 
+
+- If you want to run SummPip on your own dataset, you need to pre-train a W2V model yourself first with [gensim](https://radimrehurek.com/gensim/index.html).
+
+**Step3**: Unsupervised Extractive Summarisation
+
+```bash
+python run_multinews.py
+```
+
+## Use SummPip on your dataset
 
 Example of multiple documents, separated by "story_separator_special_tag" (example taken from truncated Multi_News dataset)
 
@@ -71,16 +85,4 @@ dangerous drugs into those same communities for a quick payoff .
 
 ```
 
-## Tes SummPip on Multi-News
 
-**Step1**: place downloaded dataset in the folder `./dataset/multi_news/`.
-
-**Step2**: download the pre-trained [word2vec model](https://drive.google.com/file/d/1DVaktsGKbH8oPy28rrHuVgL_QVDsbfSA/view?usp=sharing) and place it in the folder `./word_vec/multi_news`. 
-
-- If you want to run SummPip on your own dataset, you need to pre-train a W2V model yourself first with [gensim](https://radimrehurek.com/gensim/index.html).
-
-**Step3**: Unsupervised Extractive Summarisation
-
-```bash
-python run_multinews.py
-```
