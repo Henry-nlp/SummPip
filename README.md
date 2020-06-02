@@ -69,16 +69,16 @@ print(summary_list[0])
 
 """
 postal service letter carriers and clerks from across the atlanta area was sentenced to federal prison for accepting bribes to deliver 
-packages of cocaine \u2013 two kilograms or more at a time \u2013 in a wide - reaching undercover operation . drug traffickers bribed 
+packages of cocaine - two kilograms or more at a time - in a wide - reaching undercover operation . drug traffickers bribed 
 the postal workers , federal officials said . postal services workers in metro atlanta were sentenced to federal prison for accepting 
 bribes , some as low as $ 250 , to deliver cocaine , the u.s. attorney for the northern district of georgia said in a news release 
 tuesday . drug traffickers targeted postal workers because their jobs made it less likely for them to be caught by law enforcement 
-officials , federal authorities atlanta \u2013 the last defendant of a group of 16 u.s. atlanta ( cnn ) sixteen us postal service 
+officials , federal authorities atlanta the last defendant of a group of 16 u.s. atlanta ( cnn ) sixteen us postal service 
 workers got sentences of between three to nine years in federal prison for accepting bribes to deliver cocaine on their routes in 
 atlanta . the defendants were willing to make the deliveries for bribes as low as $ 250 , and received sentences of between three and 
-nine years in prison . \u201d \u201c the fbi places a high priority on public corruption based investigations and we hope this 
-sentencing will serve as a deterrent for others , \u201d said chris sixteen u.s. federal agents learned about the operation in 2015 , 
-while working to take down a drug trafficking organization in atlanta . \u201c this important operation identified and prosecuted 16 
+nine years in prison . " " the fbi places a high priority on public corruption based investigations and we hope this 
+sentencing will serve as a deterrent for others , " said chris sixteen u.s. federal agents learned about the operation in 2015 , 
+while working to take down a drug trafficking organization in atlanta . " this important operation identified and prosecuted 16 
 corrupt individuals who chose to abuse that trust and instead used their positions to bring what they thought were large amounts of 
 dangerous drugs into those same communities for a quick payoff .
 """
