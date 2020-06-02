@@ -17,8 +17,7 @@ from scipy import *
 glove_word_vectors = api.load("glove-wiki-gigaword-100")
 spacynlp=spacy.load("en_core_web_sm")
 
-# Step 1: Deverbal Noun Reference
-# step 1.1: get nouns for verbs in the current sentence
+
 verbs_to_escape = ["be", "is","am","are","was", "were", "being","been","do","did",
                "done","have","had","get","got","gotten"]
 
@@ -43,7 +42,9 @@ class SentenceGraph:
 
         # threshold for step4
         self.ita = ita
-
+        
+    # Step 1: Deverbal Noun Reference
+    # step 1.1: get nouns for verbs in the current sentence
     def get_nouns_for_verbs(self, string):
         doc = spacynlp(string)
         nouns_list = []
