@@ -21,7 +21,7 @@ spacynlp=spacy.load("en_core_web_sm")
 verbs_to_escape = ["be", "is","am","are","was", "were", "being","been","do","did",
                "done","have","had","get","got","gotten"]
 
-# Step 3: Discourse Markers => only for two adjacent sentences
+
 markers=["for","so","because","since","therefore","consequently","additionally","furthermore","moreover",
          "but","however","although","despite","similarly","otherwise","whereas","while","unlike","thus",
         "instead","nevertheless","afterward","finally","subsequently","conversely","later","next","then",
@@ -117,6 +117,7 @@ class SentenceGraph:
                     break
         return flag
 
+    # Step 3: Discourse Markers => only for two adjacent sentences
     def check_discourse_markers(self, str1,str2):
         flag = False
         doc2 = spacynlp(str2)
